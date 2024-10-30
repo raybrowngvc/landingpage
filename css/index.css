@@ -1,0 +1,126 @@
+.bg-image {
+    background-image: url('../services/Call-Center-Set1.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 500px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .bg-image {
+        background-size: contain;
+        background-position: center top;
+        height:auto;
+        padding: 20px;
+        margin-bottom:15px;
+          }
+}
+
+.manage{
+    margin-top: 10px;
+    margin-right: 60px;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 18px;
+    
+}
+@media (max-width: 768px) {
+    .manage {
+        background-size: contain;
+        background-position: center top;
+        height:50px;
+        width: 300px;
+    }
+}
+.manage1{
+    margin-top: 10px;
+    margin-right: 50px;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.img-fluid{
+    border: radius 10px;
+}
+
+@media (max-width: 768px) {
+    .img-fluid {
+        background-size: contain;
+        background-position: center top;
+        height:250px;
+        width: 600px;
+    }
+}
+
+.contact-form{
+    margin-top: 1px; 
+}
+@media (max-width: 768px) {
+    .contact-form {
+        background-size: contain;
+        background-position: center top;
+        margin-bottom: 50px;
+       
+    }
+}
+.contents{
+    margin-right: 50px;
+    text-align: justify;
+}
+.foot{
+    border-radius:10px;
+    font-size:22px;
+    text-align: center;
+    padding: 6px;
+    margin-right:90px;
+    margin-left:10px;
+    border: (1px solid #ff0) (2px dashed #f0F) (3px dotted #F00) (5px solid #09f);
+    /* background-color: lightblue; */
+    color: black;
+
+}
+.image-{
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .image- {
+        background-size: contain;
+        background-position: center top;
+        margin-bottom: 50px;
+       
+    }
+}
+.consult{
+    border-radius:10px;
+    font-size:16px;
+    text-align: center;
+    padding: 6px;
+    margin-bottom:20px;
+    background-color: #E01616;
+}
+
+@media (max-width: 768px) {
+    .consult {
+        background-size: contain;
+        background-position: center top;
+        height:30px;
+        width: 190px;
+        margin-left: -40px;
+   margin-top:-40px;
+    }
+}
+
+.nav{
+    margin-top: -35px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+   }
+   .nav img{
+    margin-top: -15px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    }
